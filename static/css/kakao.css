@@ -1,0 +1,60 @@
+.base {
+    width: 480px;
+    height: 850px;
+    margin: 50px auto;
+    position: relative;
+    
+}
+.upbox {
+    height: 545px;
+    display: flex;
+    background-color: rgba(138, 186, 240, 0.904);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_box {
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.profile_photo {
+    width: 100px;
+    height: 100px;
+    top:  490px;
+    left: 190px;
+    object-fit: cover;
+    border-radius: 80%;
+    position: absolute;
+}
+
+.profile {
+    height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 100 px;
+}
+
+.image_box {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10pt;
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon_image {
+    width: 40px;
+    height: 40px;
+}
