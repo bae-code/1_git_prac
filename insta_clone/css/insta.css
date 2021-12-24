@@ -1,0 +1,141 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.base {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.insta_image {
+    width: 8%;
+    height: 50%;
+}
+
+.insta_font_image {
+    width: 30%;
+    height: 80%;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.post {
+    width: 100%;
+}
+
+.post_top {
+    /* width: 100%; */
+    height: 1vh;
+    /* background: red; */
+    padding-top: 35px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    padding-left: 2%;
+}
+.post_image {
+    width: 8%;
+    margin-bottom: 37px;
+    border-radius: 80%;
+}
+.post_more_image {
+    width: 5%;
+    margin-bottom: 37px;
+    margin-left: 70%;
+
+}
+.post_text {
+    margin-left: 10px;
+    margin-bottom: 17%;
+    font-size: 12px;
+    /* text-align: center; */
+}
+
+.post_main_image {
+    width: 100%;
+    align-items: center;
+}
+
+.post_bottom {
+    height: 1vh;
+    /* background: red; */
+    padding-top: 32px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 2%;
+}
+.post_bottom_image {
+    width: 7%;
+    margin-bottom: 37px;
+    margin-left: 4%;
+}
+.post_fav_image {
+    width: 5%;
+    margin-bottom: 37px;
+    margin-left: 55%;
+
+}
+
+.header{
+    font-weight: bold;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    height: 6vh;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    border-bottom: solid 1px rgb(187, 187, 187);
+    /* 생략 */
+}
+.story_container{
+    width: 100%;
+    height: 9vh;
+    background: rgb(218, 217, 217);
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-left: 2%; */
+    border-bottom: solid 1px rgb(187, 187, 187);
+    margin-bottom: 1%;
+}
+.story_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    margin-top: 8%;
+}
+
+.story_img {
+    width: 40px;
+    margin-bottom: 20%;
+    border-radius: 80%;
+}
+.story_txt {
+    margin-top: 0%;
+}
+
+.footer{
+    width: 100vw;
+    height: 7vh;
+    font-size: 100%;
+    position: fixed;  
+    bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+
+}
