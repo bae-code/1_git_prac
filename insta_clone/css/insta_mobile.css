@@ -1,7 +1,12 @@
-body {
-    margin: 0 auto;
-    max-width: 620px;
+@media screen and (min-width: 800px) {
+    .body {
+        margin: 0 auto;
+        max-width: 620px;
+        display: none;
+    }
 }
+
+
 @media (min-width: 800px) {
     .base {
         width: 100vw;
@@ -27,6 +32,7 @@ body {
     .post {
         width: 100%;
         max-width: 720px;
+        border-bottom : solid 1px rgb(187, 187, 187);
     }
 
     .post_top {
